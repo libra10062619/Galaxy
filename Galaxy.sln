@@ -1,11 +1,15 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure", "Galaxy.Infrastructure\Galaxy.Infrastructure.csproj", "{111BC435-405A-4CA3-9AF6-DD43C1648118}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA12E58F-B044-4991-88C5-6E808EEF0159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.EventStorage.MySql", "Galaxy.Infrastructure.EventStorage.MySql\Galaxy.Infrastructure.EventStorage.MySql.csproj", "{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Galaxy", "Galaxy", "{E7C146D6-A291-42DE-BC93-9DDC094EE451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.RabbitMQ", "Galaxy.Infrastructure.RabbitMQ\Galaxy.Infrastructure.RabbitMQ.csproj", "{57F7B836-786D-4E6F-B7EF-176B5F19E952}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure", "src\Galaxy\Galaxy.Infrastructure\Galaxy.Infrastructure.csproj", "{9C24FF68-F513-4293-85B6-6B23A53B1505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.EventStorage.MySql", "src\Galaxy\Galaxy.Infrastructure.EventStorage.MySql\Galaxy.Infrastructure.EventStorage.MySql.csproj", "{3DAA964F-2231-440B-B76C-7DBA171C281A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.RabbitMQ", "src\Galaxy\Galaxy.Infrastructure.RabbitMQ\Galaxy.Infrastructure.RabbitMQ.csproj", "{62269D68-683A-46A5-AA58-766C25BFA497}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C24FF68-F513-4293-85B6-6B23A53B1505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C24FF68-F513-4293-85B6-6B23A53B1505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C24FF68-F513-4293-85B6-6B23A53B1505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C24FF68-F513-4293-85B6-6B23A53B1505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAA964F-2231-440B-B76C-7DBA171C281A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAA964F-2231-440B-B76C-7DBA171C281A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAA964F-2231-440B-B76C-7DBA171C281A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAA964F-2231-440B-B76C-7DBA171C281A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62269D68-683A-46A5-AA58-766C25BFA497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62269D68-683A-46A5-AA58-766C25BFA497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62269D68-683A-46A5-AA58-766C25BFA497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62269D68-683A-46A5-AA58-766C25BFA497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{E7C146D6-A291-42DE-BC93-9DDC094EE451} = {AA12E58F-B044-4991-88C5-6E808EEF0159}
+		{9C24FF68-F513-4293-85B6-6B23A53B1505} = {E7C146D6-A291-42DE-BC93-9DDC094EE451}
+		{3DAA964F-2231-440B-B76C-7DBA171C281A} = {E7C146D6-A291-42DE-BC93-9DDC094EE451}
+		{62269D68-683A-46A5-AA58-766C25BFA497} = {E7C146D6-A291-42DE-BC93-9DDC094EE451}
 	EndGlobalSection
 EndGlobal

@@ -290,7 +290,7 @@ namespace Galaxy.Infrastructure.EventStorage.MySql
 
         async Task GetSnapshotAsync(AggregateRoot aggregateRoot, long aggregateRootId)// long key, string tableName)
         {
-            var entity = await Connection.QueryFirstOrDefaultAsync($"SELECT * FROM SNAP_{aggregateRoot.GetType().Name} WHERE Id=@Id;", new { Id = aggregateRootId });
+            object entity = await Connection.QueryFirstOrDefaultAsync($"SELECT * FROM SNAP_{aggregateRoot.GetType().Name} WHERE Id=@Id;", new { Id = aggregateRootId });
             if (null != entity)
             {
                 Snapshot snapshot = JsonConvert.DeserializeObject<Snapshot>(entity.Content);
