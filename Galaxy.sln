@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure", "Galaxy.Infrastructure\Galaxy.Infrastructure.csproj", "{111BC435-405A-4CA3-9AF6-DD43C1648118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.EventStorage.MySql", "Galaxy.Infrastructure.EventStorage.MySql\Galaxy.Infrastructure.EventStorage.MySql.csproj", "{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.RabbitMQ", "Galaxy.Infrastructure.RabbitMQ\Galaxy.Infrastructure.RabbitMQ.csproj", "{57F7B836-786D-4E6F-B7EF-176B5F19E952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111BC435-405A-4CA3-9AF6-DD43C1648118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B33AA6-4C34-4A38-A0E5-98AF38C58C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F7B836-786D-4E6F-B7EF-176B5F19E952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
