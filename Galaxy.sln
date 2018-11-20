@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.Event
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.Infrastructure.RabbitMQ", "src\Galaxy\Galaxy.Infrastructure.RabbitMQ\Galaxy.Infrastructure.RabbitMQ.csproj", "{62269D68-683A-46A5-AA58-766C25BFA497}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6D03B928-23CB-47A7-A08A-F71B84CBBC8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
